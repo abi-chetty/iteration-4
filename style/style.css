@@ -1,0 +1,114 @@
+body {
+    background-image: url("./images/background.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+
+
+
+#main {
+
+    background-color: #fff;
+
+    margin: 10% 5% 0 5%;
+
+    padding: 20px;
+
+    align-content: center;
+
+    border-radius: 5px;
+
+    background-color: rgba(0, 0, 0, 0.644);
+
+
+
+}
+
+#brand{
+    color:rgb(224, 224, 224);
+    font-family: "Lucida Bright", Georgia, serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 700;
+}
+
+#error{
+    background-color: tomato;
+    margin: 20% auto;
+    width:50vw;
+}
+
+.content{
+    float: left;
+    border-radius: 5px;
+    background-color: rgba(1, 209, 209, 0.74);
+    margin: 1.5%;
+    padding: 4%;
+    width: 47%;
+}
+
+.modal-content{
+    color: black;
+}
+
+.boxes{
+
+    padding: 5%;
+   
+    height:25vh ;
+
+    background-color: rgba(255, 255, 255, 0.788);
+
+    font-size: calc(1vw + 1vh );
+
+    color: black;
+}
+
+.btn{
+
+    background-color: rgb(47, 117, 184);
+    padding: 2% 32%;
+    color: blanchedalmond;
+
+}
+
+.btn:hover{
+
+    background-color: rgb(0, 180, 141);
+
+    color: blanchedalmond;
+
+}
+
+
+.btns{
+
+    margin:3% 30%;
+}
+
+.mdbtn{
+    padding: 5px;
+}
+
+#form{
+    margin: 30%;
+    padding: 5%;
+    background-color: #fff;
+}
+
+
+@media only screen and (max-width: 720px) {
+    .content{
+        margin: 5%;
+        padding: 3%;
+        width: 92%;
+    }
+    .boxes{
+        height: 25vh;
+        font-size: calc(1.5vw + 1.5vh );
+    }
+}
